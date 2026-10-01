@@ -1,4 +1,5 @@
 This parameter intend to fix an issue on Debian 13.7 with protonvpn-cli 1.0.5
+
 When trying to connect througt the VPN, Proton keeps asking for a root access on networkmanager
 to apply the fix 
 - run while in root or sudoer (add *sudo*)
