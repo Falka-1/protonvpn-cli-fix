@@ -1,5 +1,5 @@
 polkit.addRule(function(action, subject) {
-    if (subject.user == "user1" &&
+    if (subject.user == "YOURCURRENTUSER" &&
         (action.id == "org.freedesktop.NetworkManager.network-control" ||
          action.id == "org.freedesktop.NetworkManager.settings.modify.own")) {
         return polkit.Result.YES;
